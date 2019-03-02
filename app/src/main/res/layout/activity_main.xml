@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.themejunky.module.adsmanager.MainActivity">
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/loadingId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/customic"/>
+
+
+    <LinearLayout
+        android:id="@+id/layoutButonsId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/applyid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OpenApplication"
+            android:text="Apply"
+            android:visibility="visible"
+            />
+        <Button
+            android:id="@+id/rateId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OpenApplication"
+            android:text="Rate"
+            android:visibility="visible"
+            />
+        <Button
+            android:id="@+id/getmoreId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OpenApplication"
+            android:text="Get More"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
